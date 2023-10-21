@@ -17,7 +17,7 @@ This project is a simple HTML and CSS clone of the dynoAcademy page. It was crea
 
 ## Demo
 
-You can see a live demo of this project [Click here](https://hunter109.github.io/Esewa-Blog-page/).
+You can see a live demo of this project [Click here](https://hunter109.github.io/dynoAcademy/).
 
 ![dynoAcademy Clone Demo](<./assets/image/mobile%20(1).png>)
 
