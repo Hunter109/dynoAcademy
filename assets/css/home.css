@@ -2,4 +2,119 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+
+a {
+
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+nav {
+    background-color: #073763;
+    padding: 15px;
+    /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1); */
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    height: 2rem;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul li a {
+
+    color: #fff;
+    margin: 30px;
+
+}
+
+
+
+
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn div {
+    margin: 0 15px;
+}
+
+.cart-btn span {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.log-btn button {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.log-btn .login {
+    padding: 8px 20px;
+    background-color: #073763;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    /* border-color: white; */
+    /* outline: #fff; */
+}
+
+.log-btn .signup {
+    color: #ffffff;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: 1px solid #15803d;
+
+    /* border: none; */
+    border-radius: 5px;
+    background-color: #15803d;
+}
+
+.ham-burger {
+    color: white;
+    display: none;
+}
+
+@media screen and (max-width:420px) {
+    .links {
+        display: none;
+    }
+
+    .log-btn {
+        display: none;
+    }
+
+    .ham-burger {
+        display: block;
+
+    }
+
+    .ham-burger span {
+        font-size: 2rem
+    }
+
 }
