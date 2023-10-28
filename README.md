@@ -1,6 +1,6 @@
 # dynoAcademy
 
-![dynoAcademy Logo](https://dynoacademy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.6d8349d8.png&w=640&q=75)
+![dynoAcademy Logo](https://dynoacademy.com/_next/image?url=/_next/static/media/logo.6d8349d8.png&w=640&q=75)
 
 This is a clone of the dynoAcademy - Tech courses for Nepali tech enthusiast created for practice with HTML and CSS.
 
