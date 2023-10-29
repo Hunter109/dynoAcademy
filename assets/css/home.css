@@ -23,7 +23,6 @@ nav {
 }
 
 .navbar {
-    width: 100%;
     height: 75px;
     margin: 0 auto;
     display: flex;
@@ -66,8 +65,10 @@ nav .links li a.active,
     display: none;
 }
 
-.log-btn a {
-    margin: 0 10px;
+.log-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action-btn {
@@ -80,6 +81,7 @@ nav .links li a.active,
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2s ease;
+    margin: 0 10px;
 }
 
 .action-btn1 {
@@ -137,7 +139,7 @@ nav .links li a.active,
     /* width: 50%; */
     display: flex;
     margin-bottom: 6px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
@@ -153,12 +155,13 @@ nav .links li a.active,
 }
 
 .left-container>h3 {
+    margin: 0 15px;
     font-size: 58px;
     color: #ffffff;
 }
 
 .left-container>p {
-    margin: 40px 0;
+    margin: 40px 15px;
 
     font-size: 20px;
     color: #ffffff;
@@ -167,7 +170,7 @@ nav .links li a.active,
 }
 
 .left-container>button {
-    margin: 20px 0;
+    margin: 20px 15px;
     text-align: center;
     background-color: #15803d;
     font-size: 18px;
