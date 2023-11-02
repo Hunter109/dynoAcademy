@@ -14,6 +14,11 @@ a {
     color: #fcf7f796;
 }
 
+hr {
+    border-color: rgba(231, 221, 221, 0.669);
+}
+
+
 /* navbar style start */
 nav {
     position: sticky;
@@ -219,7 +224,7 @@ nav .links li a.active,
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 35px 10px;
+    margin: 50px 10px;
 }
 
 .service .learning,
@@ -237,6 +242,57 @@ nav .links li a.active,
 .service div {
     line-height: 1.7;
 }
+
+.motivation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    /* margin: 110px 20px; */
+}
+
+.motivation .col1 h3 {
+    width: 40vw;
+    font-size: 28px;
+    line-height: 38px;
+    margin: 20px 0;
+}
+
+.motivation .col1 p {
+
+    width: 50vw;
+    line-height: 1.5;
+    margin: 20px 0;
+    font-size: 18px;
+
+}
+
+.motivation .col1 .col1-insider .row {
+    padding: 20px;
+}
+
+.motivation .col1 .col1-insider p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+
+
+.col1-insider .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motivation .col2 img {
+    height: 30rem;
+    background-color: #000000;
+    border-radius: 50%;
+    /* overflow-y: hidden; */
+}
+
+
+
 
 @media only screen and (max-width: 428px) {
 
@@ -263,6 +319,7 @@ nav .links li a.active,
 
 
     .image-with-text {
+        height: 90vh;
         flex-direction: column;
         justify-content: flex-start;
     }
@@ -299,11 +356,63 @@ nav .links li a.active,
     .service {
         flex-direction: column;
         align-items: start;
+        margin: 30px 10px;
     }
 
     .service div {
         margin: 5px 0;
     }
+
+
+
+    .motivation {
+        flex-direction: column;
+        padding: 20px;
+        /* margin: 110px 20px; */
+    }
+
+    .motivation .col1 h3 {
+        width: 100%;
+        font-size: 20px;
+        line-height: 28px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .motivation .col1 p {
+
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .motivation .col1 .col1-insider .row h4 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+    .motivation .col1 .col1-insider .row {
+        padding: 10px;
+    }
+
+    .motivation .col1 .col1-insider p {
+        font-size: 12px;
+    }
+
+    .col1-insider .row svg {
+        display: none;
+    }
+
+
+    .motivation .col2 img {
+        height: 20rem;
+
+    }
+
+
+
 }
 
 
