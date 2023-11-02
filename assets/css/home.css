@@ -408,6 +408,93 @@ nav .links li a.active,
 
 
 
+footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.footer-container {
+    padding: 30px;
+
+}
+
+.first-compartment {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px 10px 40px 10px;
+}
+
+.first-compartment .col1 img {
+    height: 2rem;
+}
+
+.first-compartment .col1 p {
+    line-height: 1.5;
+    width: 35vw;
+    color: #fcf7f796;
+}
+
+.first-compartment h4,
+.first-compartment .col1 img {
+    margin: 20px 0;
+
+
+}
+
+.first-compartment h4 {
+
+    padding: 0 15px;
+
+
+}
+
+.footer-container hr {
+    border-color: #fcf7f796;
+
+}
+
+.footer-container>p {
+
+    text-align: center;
+    color: #fcf7f796;
+    padding: 10px;
+
+}
+
+.foot-links li a {
+    line-height: 2;
+    padding: 15px;
+}
+
+.foot-links li a:hover {
+    color: #ffffff;
+    transition: 300ms;
+    padding-left: 5px;
+}
+
+.col4 {
+    text-align: center;
+}
+
+
+.payment-wallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-wallet img {
+    height: 3rem;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 428px) {
@@ -546,6 +633,10 @@ nav .links li a.active,
     }
 
 
+    .card-detail {
+        margin-bottom: 10px;
+    }
+
 
     .course .available-course .course-list {
 
@@ -556,6 +647,54 @@ nav .links li a.active,
 
     .course .available-course .course-list .card img {
         height: 12rem;
+
+    }
+
+
+    .first-compartment {
+        flex-direction: column;
+    }
+
+    .first-compartment .col1 img {
+        height: 2rem;
+        padding-left: 10px;
+
+    }
+
+    .first-compartment .col1 p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 2;
+        padding-left: 10px;
+    }
+
+    .first-compartment h4,
+    .first-compartment .col1 img {
+        margin: 20px 0;
+
+
+
+    }
+
+    .first-compartment h4 {
+        padding: 0 15px;
+    }
+
+    .footer-container hr {
+        border-color: #fcf7f796;
+
+    }
+
+    .footer-container>p {
+
+        text-align: center;
+        color: #fcf7f796;
+        padding: 10px;
+
+    }
+
+    .footer-container {
+        padding: 10px;
 
     }
 
@@ -664,6 +803,10 @@ nav .links li a.active,
 
     }
 
+    .card-detail {
+        margin-bottom: 10px;
+    }
+
 
     .course .available-course .course-list {
         flex-wrap: wrap;
@@ -680,9 +823,56 @@ nav .links li a.active,
 
 
 
+    .first-compartment {
+        flex-direction: column;
+    }
 
+    .first-compartment .col1 img {
+        height: 2rem;
+        padding-left: 10px;
+    }
 
+    .first-compartment .col1 p {
+        width: 100%;
+        line-height: 2;
+        padding-left: 10px;
+    }
 
+    .first-compartment h4,
+    .first-compartment .col1 img {
+        margin: 20px 0;
 
+    }
 
+    .first-compartment h4 {
+        padding: 0 15px;
+    }
+
+    .footer-container hr {
+        border-color: #fcf7f796;
+
+    }
+
+    .footer-container>p {
+
+        text-align: center;
+        color: #fcf7f796;
+        padding: 10px;
+
+    }
+
+    .footer-container {
+        padding: 10px;
+
+    }
+
+    .col4 h4 {
+        font-size: 20px;
+    }
+
+    .payment-wallet img {
+        height: 4rem;
+        border-radius: 5px;
+        margin: 0 80px;
+    }
 }
