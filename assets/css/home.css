@@ -317,6 +317,98 @@ nav .links li a.active,
 }
 
 
+.available-course {
+    padding: 50px;
+}
+
+.course .available-course h3 {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 10px;
+
+}
+
+.course .available-course p {
+    text-align: center;
+}
+
+.course .available-course .course-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+}
+
+.course .available-course .course-list .card {
+    border: 2px solid #887a7a1a;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.course .available-course .course-list .card:hover {
+    box-shadow: -2px 4px 15px 15px #44404024;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.course .available-course .course-list .card img {
+    height: 15rem;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.card-detail {
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.course-list .card .card-detail h3 {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.card-detail>span {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.enrolled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.course-info .enrolled svg {
+    background-color: red;
+    background-color: #E8E7E7;
+    font-size: 35px;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+.course-info .enrolled span {
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.rating svg {
+    color: rgb(255, 106, 0);
+    margin: 4px;
+}
+
+
+
+
 
 @media only screen and (max-width: 428px) {
 
@@ -455,6 +547,19 @@ nav .links li a.active,
 
 
 
+    .course .available-course .course-list {
+
+        flex-direction: column;
+    }
+
+
+
+    .course .available-course .course-list .card img {
+        height: 12rem;
+
+    }
+
+
 }
 
 
@@ -558,6 +663,26 @@ nav .links li a.active,
         height: 25rem;
 
     }
+
+
+    .course .available-course .course-list {
+        flex-wrap: wrap;
+    }
+
+    .course .available-course .course-list .card {
+        flex: .5;
+    }
+
+    .course .available-course .course-list .card img {
+        height: 20rem;
+
+    }
+
+
+
+
+
+
 
 
 }
