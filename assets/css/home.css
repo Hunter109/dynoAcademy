@@ -26,7 +26,7 @@ nav {
     background: #000000;
     top: 0rem;
     z-index: 100;
-    box-shadow: 0px -5px 50px #d4c7c7;
+    box-shadow: 0px -5px 30px #d4c7c7;
 }
 
 .navbar {
@@ -182,7 +182,9 @@ nav .links li a.active,
     width: 45vw;
 }
 
-.left-container>button {
+.left-container>button,
+.learnmore-text>button {
+
     margin: 20px 15px;
     text-align: center;
     background-color: #15803d;
@@ -193,8 +195,10 @@ nav .links li a.active,
     padding: 15px 60px;
 }
 
-.left-container>button:hover {
+.left-container>button:hover,
+.learnmore-text>button:hover {
     background-color: #2e7649;
+    /* background-color: red; */
     cursor: pointer;
 }
 
@@ -291,6 +295,26 @@ nav .links li a.active,
     /* overflow-y: hidden; */
 }
 
+.learnmore {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 55px;
+    flex-wrap: wrap;
+}
+
+.learnmore-text {
+    width: 50%;
+    line-height: 1.7;
+    font-size: 18px;
+
+}
+
+.learnmore img {
+    height: 15rem;
+}
 
 
 
@@ -411,6 +435,24 @@ nav .links li a.active,
 
     }
 
+    .learnmore {
+
+
+        padding: 30px 20px;
+    }
+
+
+    .learnmore-text {
+        width: 100%;
+        line-height: 1.7;
+        font-size: 16px;
+
+    }
+
+    .learnmore img {
+        height: 13rem;
+    }
+
 
 
 }
@@ -473,5 +515,49 @@ nav .links li a.active,
     .right-container img {
         height: 70vh;
     }
+
+
+
+    .motivation {
+        flex-direction: column;
+        padding: 20px;
+        /* margin: 110px 20px; */
+    }
+
+    .motivation .col1 h3 {
+        width: 100%;
+        font-size: 20px;
+        line-height: 28px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .motivation .col1 p {
+
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .motivation .col1 .col1-insider .row h4 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+
+    .motivation .col1 .col1-insider .row {
+        padding: 14px;
+    }
+
+    .motivation .col1 .col1-insider p {
+        font-size: 14px;
+    }
+
+    .motivation .col2 img {
+        height: 25rem;
+
+    }
+
 
 }
