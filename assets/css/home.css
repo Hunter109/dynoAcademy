@@ -213,6 +213,31 @@ nav .links li a.active,
     }
 }
 
+/* <!-- course service style  start here  --> */
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 35px 10px;
+}
+
+.service .learning,
+.service .certificate,
+.service .lifetimeaccess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service svg {
+    margin: 0 10px;
+}
+
+.service div {
+    line-height: 1.7;
+}
+
 @media only screen and (max-width: 428px) {
 
 
@@ -267,7 +292,23 @@ nav .links li a.active,
     .right-container img {
         height: 40vh;
     }
+
+    /* <!-- course service media query    --> */
+
+
+    .service {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .service div {
+        margin: 5px 0;
+    }
 }
+
+
+
+
 
 @media only screen and (min-width: 429px) and (max-width: 835px) {
     /* navbar media query  style */
@@ -323,4 +364,5 @@ nav .links li a.active,
     .right-container img {
         height: 70vh;
     }
+
 }
