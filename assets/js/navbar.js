@@ -11,7 +11,7 @@
 
 
  function redirectToNextPage() {
-    window.location.href = "../allcourse.html";
+    window.location.href = "./allcourse.html";
 }
 
 
