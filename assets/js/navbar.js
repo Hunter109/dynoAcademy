@@ -11,5 +11,10 @@
 
 
  function redirectToNextPage() {
-    window.location.href = "../contact.html";
+    window.location.href = "../allcourse.html";
 }
+
+
+
+
+

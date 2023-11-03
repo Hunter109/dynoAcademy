@@ -5,6 +5,11 @@
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+::selection {
+    background-color: #000000;
+    color: #ffffff;
+}
+
 li {
     list-style: none;
 }
